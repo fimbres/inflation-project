@@ -8,9 +8,11 @@ $(function() {
         $('#preloader').delay(500).fadeOut(500);
     });
     
+    $("#devs").on('click', function() {
+        alert("Los desarrolladores son Fimbres, Paredes y Vertti");
+    });
     
     //===== Mobile Menu 
-    
     $(".navbar-toggler").on('click', function() {
         $(this).toggleClass('active');
         $(".navbar-collapse").toggleClass("show");
